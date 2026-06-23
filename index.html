@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#03172d">
+  <title>FWC — First World Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="FWC home">
+      <span class="brand-mark">◇</span>
+      <span><strong>FWC</strong><small>First World Community</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <nav id="primary-nav">
+      <a href="#about">About FWC</a><a href="#ecosystem">Ecosystem</a><a href="#mission">Mission 2030</a>
+      <a href="#initiatives">Initiatives</a><a href="#events">Events</a><a href="#insights">Insights</a>
+    </nav>
+    <a class="btn btn-gold header-cta" href="#join">Join the Ecosystem</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="about">
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <p class="eyebrow" data-cms="hero.eyebrow">A global community for purposeful growth</p>
+        <h1><span data-cms="hero.line1">Connecting Visionaries.</span><br><span data-cms="hero.line2">Creating Prosperity.</span><br><em data-cms="hero.line3">Transforming Communities.</em></h1>
+        <p class="lead" data-cms="hero.description">FWC unites entrepreneurs, investors, institutions and communities to turn ambition into meaningful, sustainable impact.</p>
+        <div class="button-row">
+          <a class="btn btn-gold" href="#join">Join the Ecosystem <span>→</span></a>
+          <a class="btn btn-ghost" href="#mission">Explore Mission 2030</a>
+        </div>
+      </div>
+      <div class="stats container" id="stats"></div>
+    </section>
+
+    <section class="trust-strip">
+      <p>Trusted by leading institutions &amp; partners</p>
+      <div class="logo-row"><b>VIT</b><b>JETRO</b><b>CII</b><b>ASSIST</b><b>FICCI</b><b>ICC</b><b>NASSCOM</b><b>AIMA</b></div>
+    </section>
+
+    <section class="section ecosystem" id="ecosystem">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">One community. Many ways to grow.</p>
+          <h2 data-cms="ecosystem.title">The FWC Global Ecosystem</h2>
+          <p data-cms="ecosystem.description">Purpose-built pathways that connect people, ideas and opportunities across borders.</p>
+        </div>
+        <div class="card-grid" id="ecosystem-grid"></div>
+      </div>
+    </section>
+
+    <section class="mission" id="mission">
+      <div class="mission-copy">
+        <p class="eyebrow">Our flagship initiative</p>
+        <h2 data-cms="mission.title">India–Japan Mission 2030</h2>
+        <p data-cms="mission.description">A strategic bridge connecting Japanese excellence with Indian opportunity for a shared, prosperous future.</p>
+        <div class="mission-tags"><span>Manufacturing</span><span>Healthcare</span><span>Smart Cities</span><span>Clean Energy</span><span>AI &amp; Technology</span></div>
+        <a class="btn btn-ghost" href="#opportunities">Explore opportunities →</a>
+      </div>
+      <div class="mission-image" role="img" aria-label="India and Japan partnership"></div>
+    </section>
+
+    <section class="section initiatives" id="initiatives">
+      <div class="container">
+        <div class="section-heading compact"><p class="eyebrow">Ideas into action</p><h2>Our Strategic Initiatives</h2></div>
+        <div class="feature-panel">
+          <div class="feature-image"></div>
+          <div class="feature-copy">
+            <span class="kicker">Youth &amp; Education</span>
+            <h3 data-cms="feature.title">Yuva Shakti</h3>
+            <p data-cms="feature.description">Equipping young people with quality education, leadership development and global exposure.</p>
+            <ul><li>Entrepreneurship training</li><li>Global exchange opportunities</li><li>Mentorship and workshops</li></ul>
+            <a href="#join">Learn more →</a>
+          </div>
+          <div class="impact-box"><strong>100+</strong><span>Youth programs</span><strong>25,000+</strong><span>Students impacted</span><strong>30+</strong><span>Countries reached</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section opportunities" id="opportunities">
+      <div class="container">
+        <div class="split-heading"><div><p class="eyebrow">Make the right connection</p><h2>Global Opportunities Exchange</h2></div><a href="#join">View all opportunities →</a></div>
+        <div class="opportunity-grid" id="opportunity-grid"></div>
+      </div>
+    </section>
+
+    <section class="section newsroom">
+      <div class="container two-column">
+        <div id="insights"><div class="split-heading"><h2>Success Stories</h2><a href="#">View all →</a></div><div class="story-grid" id="stories"></div></div>
+        <div id="events"><div class="split-heading"><h2>Upcoming Events</h2><a href="#">View all →</a></div><div class="event-list" id="event-list"></div></div>
+      </div>
+    </section>
+
+    <section class="section insights">
+      <div class="container">
+        <div class="split-heading"><div><p class="eyebrow">Perspective for progress</p><h2>Latest Insights</h2></div><a href="#">View all articles →</a></div>
+        <div class="insight-grid" id="insight-grid"></div>
+      </div>
+    </section>
+
+    <section class="cta" id="join">
+      <div class="container"><p class="eyebrow">Your next chapter starts here</p><h2 data-cms="cta.title">The Future Is Built Together</h2><p data-cms="cta.description">Join a borderless community shaping a more prosperous and sustainable world.</p>
+        <div class="button-row centered"><a class="btn btn-gold" href="mailto:hello@fwc.global">Become a Member</a><a class="btn btn-ghost" href="mailto:partnerships@fwc.global">Become a Partner</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid"><div class="brand footer-brand"><span class="brand-mark">◇</span><span><strong>FWC</strong><small>Creating global impact</small></span></div><div><h4>Explore</h4><a href="#about">About FWC</a><a href="#ecosystem">Ecosystem</a><a href="#mission">Mission 2030</a></div><div><h4>Connect</h4><a href="#opportunities">Opportunities</a><a href="#events">Events</a><a href="#insights">Insights</a></div><div><h4>Manage</h4><a href="admin.html">Open CMS</a><a href="mailto:hello@fwc.global">Contact us</a></div></div>
+    <div class="container copyright">© 2026 First World Community. All rights reserved.</div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
